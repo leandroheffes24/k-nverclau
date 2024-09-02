@@ -9756,6 +9756,10 @@
     background: #FFFFFF;
     font-size: 30px;
   }
+
+  .event-image{
+    width: 300px;
+  }
   
   @media (max-width: 767.98px) {
     #event .border-right {
