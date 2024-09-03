@@ -9699,6 +9699,7 @@
   .gallery-item {
     position: relative;
     overflow: hidden;
+    margin: 0 10px;
   }
   
   .gallery-item img {
@@ -9729,8 +9730,9 @@
   }
   
   .bg-gallery {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/gallery.jpg), no-repeat center center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/galeria.webp), no-repeat;
     background-size: cover;
+    background-position-y: bottom;
   }
   
   .gallery-carousel .owl-nav {
